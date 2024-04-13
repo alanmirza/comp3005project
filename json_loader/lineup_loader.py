@@ -15,7 +15,7 @@ def connect_postgres():
         conn = psycopg2.connect(
             dbname="project_database",
             user="postgres",
-            password="",
+            password="1234",
             host="localhost"
         )
         # Open a cursor to perform database operations
